@@ -42,8 +42,8 @@ img {
   align-items: center;
   gap: 93px;
 }
-.site-nav-list,
- .auth-nav-list {
+.site-nav,
+ .auth-nav {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -65,32 +65,38 @@ img {
   line-height: 1.19;
   margin-left: 0;
 }
-.logo-span {
+.logo__span {
   color: #000000;
 }
-.main-nav .logo {
+/* .main-nav .logo {
+  padding: 24px 0 25px 0;
+} */
+.logo--main {
   padding: 24px 0 25px 0;
 }
-.main-nav .logo-span {
+/* .main-nav .logo__span {
+  padding: 24px 0 25px 0;
+} */
+.logo__span--main {
   padding: 24px 0 25px 0;
 }
-.site-nav-link,
-.auth-nav-link {
+.site-nav__link,
+.auth-nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding: 32px 0; 
 }
-.site-nav-link{
+.site-nav__link {
   position: relative;
   display: block;
 }
-.auth-nav-link {
+.auth-nav__link {
   display: flex;
   align-items: center;
 }
-.link-current-page::after {
+.link--current-page::after {
   position: absolute;
   display: block;
   content: ' ';
@@ -101,22 +107,22 @@ img {
   background-color: var(--hover-and-focus-color);
   border-radius: 2px;
 }
-.site-nav-link {
+.site-nav__link {
   color: var(--primary-text-color);
 }
-.auth-nav-link {
+.auth-nav__link {
   color: var(--accent-text-color);
 }
-.contact-icon-svg {
+.auth-nav__icon {
   margin-right: 10px; 
 }
-.icon-contact-link {
+.auth-nav__link--icon {
   fill: var(--accent-text-color);
   transition: color 250ms cubic-bezier(.4, 0, .2, 1),
    fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.icon-contact-link:hover,
- .icon-contact-link:focus{
+.auth-nav__link--icon:hover,
+ .auth-nav__link--icon:focus{
   fill: var(--hover-and-focus-color);  
 }
 .hero-studio {
@@ -358,10 +364,10 @@ img {
   margin: 0 auto;
   padding: 60px 0;
 }
-.footer .logo {
+.logo--footer {
   margin-bottom: 20px;
 }
-.footer-span {
+.logo__span--footer {
   color: var(--primary-white-color);
 }
 .footer-nav-item:not(:last-child) {
@@ -380,7 +386,7 @@ img {
 .tel {
   color: rgba(255, 255, 255, 0.6);  
 }
-.link-current-page {
+.link--current-page {
   color: var(--hover-and-focus-color);
 }
 .link:hover,
