@@ -658,7 +658,7 @@ img {
   resize: none;
   padding: 11px 12px;
 }
-::placeholder {
+.person-form__control-textarea::placeholder {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
