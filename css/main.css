@@ -78,6 +78,17 @@ img {
   margin-bottom: 30px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .filter {
   display: -webkit-box;
   display: -ms-flexbox;
