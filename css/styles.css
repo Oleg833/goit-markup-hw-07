@@ -559,8 +559,8 @@ img {
   transform: translate(-50%, -50%);
   transition: fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.backdrop__close-btn:hover .close-button-icon,
-.backdrop__close-btn:focus .close-button-icon{
+.backdrop__close-btn:hover .backdrop__close-btn-icon,
+.backdrop__close-btn:focus .backdrop__close-btn-icon{
   fill: var(--hover-and-focus-color);
 }
 .subscribe {
