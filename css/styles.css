@@ -309,7 +309,7 @@ img {
   color: var(--accent-text-color);
   margin-bottom: 16px;
 }
-.network__list {
+.network {
   display: flex;
   justify-content: center;
   align-items: center;
