@@ -1,29 +1,4 @@
-:root {
-  --primary-text-color: #212121;
-  --primary-white-color: #ffffff;
-  --hover-and-focus-color: #2196F3;
-  --button-no-active: #f5f4fa;
-  --accent-text-color: #757575;
-  --accent-bgd-color: #2F303A;
-  --social-links-color: #afb1b8;
-  --btn-hover-color: #188CE8;
-}
-body {
-  margin: 0;
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.03em;
-}
-h1,h2,h3, p {
-  padding: 0;
-  margin: 0;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .link:hover,
 .link:focus {
   color: var(--hover-and-focus-color);
@@ -505,6 +480,18 @@ img {
   .join-icon-footer:focus {
   background-color: var(--hover-and-focus-color );
 }
+.footer__btn {
+  min-width: 200px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 28px;
+  gap: 10px;
+}
+.footer__btn-icon {
+  fill: var(--primary-white-color);
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -562,50 +549,7 @@ img {
 .backdrop__close-btn:focus .backdrop__close-btn-icon{
   fill: var(--hover-and-focus-color);
 }
-.subscribe {
-  margin-left: 93px;
-}
-.subscribe__title {
-  display: block;
-  color: var(--primary-white-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-.subscribe__label {
-  display: inline-block;
-  margin-right: 12px;
-}
-.subscribe__input {
-  min-width: 358px;
-  height: 50px;
-  font-size: 16px;
-  line-height: 1.25;
-  color:  rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  padding: 15px 16px;
-  background-color: inherit;
-}
-.subscribe__input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
-}
-.footer__btn {
-  min-width: 200px;
-  display: inline-flex;
-  align-items: center;
-  text-align: center;  
-  padding: 10px 28px;
-  gap: 10px;
-}
-.footer__btn-icon {
-  fill: var(--primary-white-color);
-}
+
 .modal-title {
   display: block;
   font-weight: 700;
@@ -663,7 +607,7 @@ img {
   resize: none;
   padding: 11px 12px;
 }
-.person-form__control-textarea::placeholder {
+.person-form__textarea::placeholder {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
