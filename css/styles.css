@@ -166,12 +166,17 @@
 
 
 
-.features-list,
-  .work-list,
-  .team__list {
+.features-list {
   display: flex;
   gap: 30px;
 }
+.work-list {
+  display: flex;
+  gap: 30px;
+}
+
+
+
 .features {
   font-size: 14px;
   text-align: left;
@@ -196,6 +201,7 @@
   color: var(--accent-text-color);
   line-height: 1.71;
 }
+
 .work {
   padding-top: 0;
 }
@@ -229,11 +235,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
 
 .footer {
   background-color: var(--accent-bgd-color);
