@@ -540,7 +540,7 @@ img {
    opacity 250ms cubic-bezier(.4, 0, .2, 1);
    padding: 40px 40px;
 }
-.close-btn {
+.backdrop__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -551,7 +551,7 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
-.close-button-icon {
+.backdrop__close-btn-icon {
   fill: currentColor;
   position: absolute;
   top: 50%;
@@ -559,8 +559,8 @@ img {
   transform: translate(-50%, -50%);
   transition: fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.close-btn:hover .close-button-icon,
-.close-btn:focus .close-button-icon{
+.backdrop__close-btn:hover .close-button-icon,
+.backdrop__close-btn:focus .close-button-icon{
   fill: var(--hover-and-focus-color);
 }
 .subscribe {
