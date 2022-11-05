@@ -255,7 +255,7 @@ img {
 }
 .work-heading,
   .team__heading,
-  .clients-heading {
+  .clients__heading {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -334,19 +334,19 @@ img {
   background-color: var(--hover-and-focus-color);
   fill: var(--primary-white-color);
 }
-.clients-heading {
+.clients__heading {
   margin-bottom: 50px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   gap: 30px;
 }
-.clients-card-item {
+.clients__card {
   flex-basis: calc((100% - 150px) / 6);
   /* width: calc((100% - 150px) / 6); */
   height: 92px; 
 }
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,11 +356,11 @@ img {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(.4, 0, .2, 1), fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.clients-link {
+.clients__link {
   fill: var(--social-links-color);
 }
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--hover-and-focus-color);
   border-color: var(--hover-and-focus-color);  
 }
