@@ -104,28 +104,9 @@
  .auth-nav__link--icon:focus{
   fill: var(--hover-and-focus-color);  
 }
-.hero-studio {
-  background-color: var(--accent-bgd-color);
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 200px 0;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/new_photo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-.hero-studio-heading {
-  color: var(--primary-white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  max-width: 696px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
+
+
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -168,34 +149,7 @@
 
 
 
-.features {
-  font-size: 14px;
-  text-align: left;
-}
-.features__list {
-  display: flex;
-  gap: 30px;
-}
-.features__icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
-  background-color: var(--button-no-active);
-  margin-bottom: 30px;
-}
-.features__title {
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;  
-}
-.features__text {
-  color: var(--accent-text-color);
-  line-height: 1.71;
-}
+
 
 
 
