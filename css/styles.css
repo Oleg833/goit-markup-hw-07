@@ -24,6 +24,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.link:hover,
+.link:focus {
+  color: var(--hover-and-focus-color);
+}
 .list {
   list-style: none;
   padding: 0;
@@ -390,10 +394,6 @@ img {
 .site-nav__link--current-page {
   color: var(--hover-and-focus-color);
 }
-.link:hover,
-  .link:focus {
-  color: var(--hover-and-focus-color);  
-}
 .filter-list {
   display: flex;
   justify-content: center;
@@ -563,10 +563,10 @@ img {
 .close-btn:focus .close-button-icon{
   fill: var(--hover-and-focus-color);
 }
-.subscribe-form {
+.subscribe {
   margin-left: 93px;
 }
-.email-input-title {
+.subscribe__title {
   display: block;
   color: var(--primary-white-color);
   font-weight: 700;
@@ -575,11 +575,11 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.email-label {
+.subscribe__label {
   display: inline-block;
   margin-right: 12px;
 }
-.email-input {
+.subscribe__input {
   min-width: 358px;
   height: 50px;
   font-size: 16px;
