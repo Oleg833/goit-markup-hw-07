@@ -96,7 +96,7 @@ img {
   display: flex;
   align-items: center;
 }
-.link--current-page::after {
+.site-nav__link--current-page::after {
   position: absolute;
   display: block;
   content: ' ';
@@ -167,7 +167,7 @@ img {
    color 250ms cubic-bezier(.4, 0, .2, 1),
    box-shadow 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.btn-studio {
+.studio__btn {
   color: var(--primary-white-color);
   background:var(--hover-and-focus-color);
   min-width: 216px;
@@ -177,12 +177,13 @@ img {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.btn-studio:hover,
-.btn-studio:focus {
+
+.studio__btn:hover,
+.studio__btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--btn-hover-color);
 }
-.btn-portfolio {
+.portfolio__btn {
   color: var(--primary-text-color);
   background-color: var(--button-no-active);
   font-weight: 500;
@@ -190,14 +191,14 @@ img {
   letter-spacing: 0.03em;
   padding: 6px 22px;  
 }
-.btn-portfolio-current,
-  .btn-portfolio:hover,
-  .btn-portfolio:focus {
+.portfolio__btn--current,
+  .portfolio__btn:hover,
+  .portfolio__btn:focus {
   color: var(--primary-white-color);
   background-color: var(--hover-and-focus-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);  
 }
-/* .btn-portfolio-item:not(:last-child) {
+/* .portfolio__btn-item:not(:last-child) {
   margin-right: 8px;
 } */
 .visually-hidden {
@@ -386,7 +387,7 @@ img {
 .tel {
   color: rgba(255, 255, 255, 0.6);  
 }
-.link--current-page {
+.site-nav__link--current-page {
   color: var(--hover-and-focus-color);
 }
 .link:hover,
@@ -590,7 +591,7 @@ img {
   padding: 15px 16px;
   background-color: inherit;
 }
-.btn-footer {
+.footer__btn {
   min-width: 200px;
   display: inline-flex;
   align-items: center;
@@ -598,7 +599,7 @@ img {
   padding: 10px 28px;
   gap: 10px;
 }
-.footer-icon-svg {
+.footer__btn-icon {
   fill: var(--primary-white-color);
 }
 .modal-title {
@@ -713,7 +714,7 @@ img {
 .btn-modal-send {
   display: block;
   max-width: 200px;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 
