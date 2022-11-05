@@ -1,0 +1,25 @@
+.network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.network__links {
+    width: 44px;
+    height: 44px;
+}
+.network__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: var(--social-links-color);
+    transition: background-color 250ms cubic-bezier(.4, 0, .2, 1), fill 250ms cubic-bezier(.4, 0, .2, 1);
+}
+.network__link:hover,
+.network__link:focus {
+    background-color: var(--hover-and-focus-color);
+    fill: var(--primary-white-color);
+}
