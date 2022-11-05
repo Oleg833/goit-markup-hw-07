@@ -219,7 +219,7 @@ img {
 }
 .features-list,
   .work-list,
-  .comand-card-list {
+  .team__list {
   display: flex;
   gap: 30px;
 }
@@ -254,7 +254,7 @@ img {
   margin-bottom: 50px;
 }
 .work-heading,
-  .comand-card-heading,
+  .team__heading,
   .clients-heading {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -283,43 +283,43 @@ img {
 .comand-card {
   background-color: var(--button-no-active);
 }
-.comand-card-heading {
+.team__heading {
   margin-bottom: 50px;
 }
-.comand-card-item {
+.team__item {
   background-color: var(--primary-white-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.comand-card-box {
+.team__box {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   border: transparent solid 1px;
   padding-top: 30px;
   padding-bottom: 30px;  
 }
-.comand-card-title {
+.team__title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 9px;
 }
-.comand-card-text {
+.team__text {
   color: var(--accent-text-color);
   margin-bottom: 16px;
 }
-.comand-social-list {
+.network__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.comand-social-links-item {
+.network__links {
   width: 44px;
   height: 44px;
 }
-.icon-comand {
+.network__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -329,8 +329,8 @@ img {
   fill: var(--social-links-color);
   transition: background-color 250ms cubic-bezier(.4, 0, .2, 1), fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.icon-comand:hover,
-.icon-comand:focus {
+.network__link:hover,
+.network__link:focus {
   background-color: var(--hover-and-focus-color);
   fill: var(--primary-white-color);
 }
@@ -711,7 +711,7 @@ img {
 .checkbox-agreement-link:focus + .icon-checkbox{
   border-color: var(--hover-and-focus-color);
 }
-.btn-modal-send {
+.modal__btn {
   display: block;
   max-width: 200px;
   margin: 0 auto;
