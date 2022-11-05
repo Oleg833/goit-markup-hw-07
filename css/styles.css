@@ -614,11 +614,11 @@ img {
 .person-form {
   width: 100%;
 }
-.form-control {
+.person-form__control {
   position: relative;
   margin-bottom: 10px;
 }
-.form-label {  
+.person-form__label {  
   display: block;
   color: var(--accent-text-color);
   font-size: 12px;
@@ -626,10 +626,10 @@ img {
   letter-spacing: 0.01em;
   margin-bottom: 4px;  
 }
-.form-control:focus-within .form-icon {
+.person-form__control:focus-within .person-form__icon {
   fill: var(--hover-and-focus-color);
 }
-.form-input {
+.person-form__input {
   color: var(--accent-text-color);
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -639,10 +639,10 @@ img {
   padding: 11px 12px 11px 42px;
   background-color: transparent;
 }
-.form-input:focus, .form-input:hover {
+.person-form__input:focus, .person-form__input:hover {
   border-color: var(--hover-and-focus-color);
 }
-.form-icon {
+.person-form__icon {
   position: absolute;
   fill: var(--primary-text-color);
   top: 50%;
@@ -651,10 +651,10 @@ img {
   margin-left: 12px;
   z-index: -1;
 }
-.form-control-textarea {
+.person-form__control-textarea {
   margin-bottom: 20px;
 }
-.textarea {
+.person-form__textarea {
   display: block;
   resize: none;
   padding: 11px 12px;
@@ -665,17 +665,17 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.form-control-checkbox {
+.person-form__control-checkbox {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
-.checkbox-agreement-link {
+.person-form__checkbox-agreement-link {
   color: var(--hover-and-focus-color);
 }
-.checkbox-label {
+.person-form__checkbox-label {
   color: var(--accent-text-color);
   display: inline-flex;
   align-items: center;
@@ -684,12 +684,12 @@ img {
   font-size: 14px;
   line-height: 1.71;  
 }
-.checkbox-input {
+.person-form__checkbox-input {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.icon-checkbox {
+.person-form__icon-checkbox {
   fill: var(--primary-white-color);
   border: solid 2px var(--primary-text-color);
   border-radius: 3px;
@@ -698,17 +698,17 @@ img {
   background-color 250ms cubic-bezier(.4, 0, .2, 1);
   margin-right: 7px;
 }
-.checkbox-input:focus~.icon-checkbox {
+.person-form__checkbox-input:focus~.person-form__icon-checkbox {
   border-color: var(--hover-and-focus-color);
 }
-.checkbox-input:checked ~ .icon-checkbox {
+.person-form__checkbox-input:checked ~ .person-form__icon-checkbox {
   background-color: var(--hover-and-focus-color);
   border: none;
 }
-.checkbox-agreement-link:focus {
+.person-form__checkbox-agreement-link:focus {
   outline-color: var(--hover-and-focus-color);
 }
-.checkbox-agreement-link:focus + .icon-checkbox{
+.person-form__checkbox-agreement-link:focus + .person-form__icon-checkbox{
   border-color: var(--hover-and-focus-color);
 }
 .modal__btn {
