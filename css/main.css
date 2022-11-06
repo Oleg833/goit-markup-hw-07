@@ -171,6 +171,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   color: var(--accent-text-color);
+  gap: 10px;
 }
 
 .site-nav__link--current-page {
@@ -186,10 +187,6 @@ ul {
   bottom: -1px;
   background-color: var(--hover-and-focus-color);
   border-radius: 2px;
-}
-
-.auth-nav__icon {
-  margin-right: 10px;
 }
 
 .auth-nav__link--icon {
