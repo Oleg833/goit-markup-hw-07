@@ -1,21 +1,18 @@
-
-.link:hover,
-.link:focus {
-  color: var(--hover-and-focus-color);
-}
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.header {
-  border-bottom: 1px solid #ECECEC;
+.link {
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.link:hover,
+.link:focus {
+  color: var(--hover-and-focus-color);
 }
+
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -31,10 +28,7 @@
 .auth-nav-item+.auth-nav-item {
   margin-left: 50px;
 } */
-.link {
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(.4, 0, .2, 1);
-}
+
 .logo {
   display: block;
   color: var(--hover-and-focus-color);
@@ -75,6 +69,9 @@
   display: flex;
   align-items: center;
 }
+.site-nav__link--current-page {
+  color: var(--hover-and-focus-color);
+}
 .site-nav__link--current-page::after {
   position: absolute;
   display: block;
@@ -108,50 +105,6 @@
 
 
 
-
-
-.btn {
-  border: transparent solid 1px;
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(.4, 0, .2, 1),
-   color 250ms cubic-bezier(.4, 0, .2, 1),
-   box-shadow 250ms cubic-bezier(.4, 0, .2, 1);
-}
-.studio__btn {
-  color: var(--primary-white-color);
-  background:var(--hover-and-focus-color);
-  min-width: 216px;
-  height: 50px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.studio__btn:hover,
-.studio__btn:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--btn-hover-color);
-}
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-  background-color: var(--accent-bgd-color);
-  margin: 0 auto;
-  padding: 60px 0;
-}
 .logo--footer {
   margin-bottom: 20px;
 }
@@ -174,9 +127,7 @@
 .tel {
   color: rgba(255, 255, 255, 0.6);  
 }
-.site-nav__link--current-page {
-  color: var(--hover-and-focus-color);
-}
+
 
 
 
@@ -242,6 +193,7 @@
   line-height: 1.88;
 }
 
+
 .parrent-adress {
   display: flex;
   align-items: baseline;
@@ -287,15 +239,6 @@
   .join-icon-footer:focus {
   background-color: var(--hover-and-focus-color );
 }
-.footer__btn {
-  min-width: 200px;
-  display: inline-flex;
-  align-items: center;
-  text-align: center;
-  padding: 10px 28px;
-  gap: 10px;
-}
-.footer__btn-icon {
-  fill: var(--primary-white-color);
-}
+
+
 
