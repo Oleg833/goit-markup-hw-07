@@ -3,14 +3,14 @@
     margin: 0 auto;
     padding: 60px 0;
 }
-.footer-nav-item:not(:last-child) {
-    margin-bottom: 9px;
-}
 .address {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     margin-top: 0px;
+}
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
 }
 .map {
     color: var(--primary-white-color);

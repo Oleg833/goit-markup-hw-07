@@ -492,9 +492,6 @@ ul {
   background-color: rgba(255, 255, 255, 0.1);
   background-size: 100%;
 }
-.network__link--footer:hover, .network__link--footer:focus {
-  background-color: var(--hover-and-focus-color);
-}
 
 .clients__heading {
   margin-bottom: 50px;
@@ -548,15 +545,15 @@ ul {
   padding: 60px 0;
 }
 
-.footer-nav-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   margin-top: 0px;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .map {
