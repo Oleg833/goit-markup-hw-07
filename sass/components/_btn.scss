@@ -14,12 +14,14 @@
         color 250ms cubic-bezier(.4, 0, .2, 1),
         box-shadow 250ms cubic-bezier(.4, 0, .2, 1);
     cursor: pointer;
-}
-.btn:hover,
-.btn:focus {
+
+    &:hover,
+    &:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--btn-hover-color);
+    }
 }
+
 .btn__icon--footer {
     fill: var(--primary-white-color);
 }

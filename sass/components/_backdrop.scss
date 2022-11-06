@@ -28,6 +28,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+
+    &:hover &-icon,
+    &:focus &-icon {
+            fill: var(--hover-and-focus-color);
+    }
 }
 .backdrop__close-btn-icon {
     fill: currentColor;
@@ -37,7 +42,4 @@
     transform: translate(-50%, -50%);
     transition: fill 250ms cubic-bezier(.4, 0, .2, 1);
 }
-.backdrop__close-btn:hover .backdrop__close-btn-icon,
-.backdrop__close-btn:focus .backdrop__close-btn-icon {
-    fill: var(--hover-and-focus-color);
-}
+
