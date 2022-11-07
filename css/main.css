@@ -90,20 +90,13 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   margin-left: 0;
-  padding: 24px 0 25px 0;
 }
 
 .logo__span {
   color: #000000;
-  padding: 24px 0 25px 0;
 }
 
-.logo--footer {
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.logo__span--footer {
+.logo__span--other-color {
   color: var(--primary-white-color);
 }
 
@@ -131,6 +124,10 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   gap: 93px;
+}
+
+.header__logo {
+  padding: 24px 0 25px 0;
 }
 
 .site-nav,
@@ -611,6 +608,10 @@ ul {
   background-color: var(--accent-bgd-color);
   margin: 0 auto;
   padding: 60px 0;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
 }
 
 .address {
