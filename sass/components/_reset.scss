@@ -18,7 +18,13 @@ img {
     height: auto;
 }
 a {
-    text-decoration: none;    
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(.4, 0, .2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-and-focus-color);
+    }
 }
 ul {
     list-style: none;
