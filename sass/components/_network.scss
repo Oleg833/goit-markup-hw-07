@@ -4,7 +4,7 @@
     align-items: center;
     gap: 10px;
 }
-.network__links {
+.network__item {
     width: 44px;
     height: 44px;
 }
@@ -24,7 +24,7 @@
     fill: var(--primary-white-color);
     }
 }
-.network__link--footer {
+.network__link--other-bgd {
     fill: var(--primary-white-color);
     background-color: rgba(255, 255, 255, 0.1);
     background-size: 100%;

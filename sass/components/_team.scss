@@ -1,11 +1,5 @@
-.team {
-    background-color: var(--button-no-active);
-}
 
-.team__heading {
-    margin-bottom: 50px;
-}
-.team__list {
+.team {
     display: flex;
     gap: 30px;
 }
