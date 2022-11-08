@@ -3,37 +3,22 @@
     margin: 0 auto;
     padding: 60px 0;
 }
-.footer__logo {
-    margin-bottom: 20px;
-}
-.address {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    margin-top: 0px;
-}
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
-}
-.map {
-    color: var(--primary-white-color);
-}
-.mailto,
-.tel {
-    color: rgba(255, 255, 255, 0.6);
-}
-.parrent-adress {
+.footer__control-box {
     display: flex;
     align-items: baseline;
     /* justify-content: space-between; */
 }
-.adress-content {
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__address-box {
     flex-grow: 1;
 }
-.join-social {
+.network-box {
     margin-left: 70px;
 }
-.join-social__heading-footer {
+.network-box__title {
     color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
