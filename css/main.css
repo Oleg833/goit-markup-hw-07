@@ -339,7 +339,7 @@ ul {
   overflow: hidden;
 }
 
-.product__img-text-hover {
+.product__overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -355,7 +355,7 @@ ul {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.product__link:hover .product__img-text-hover, .product__link:focus .product__img-text-hover {
+.product__link:hover .product__overlay, .product__link:focus .product__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
