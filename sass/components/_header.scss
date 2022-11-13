@@ -14,11 +14,15 @@
 .header__logo {
     padding: 24px 0 25px 0;
 }
-.site-nav,
-.auth-nav {
+.site-nav {
     display: flex;
     align-items: center;
     gap: 50px;
+}
+.auth-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 .site-nav__link,
 .auth-nav__link {
